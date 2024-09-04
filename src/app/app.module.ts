@@ -4,7 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { InicioComponent } from './inicio/inicio.component';
-import { NavBarComponent } from './nav-bar/nav-bar.component';
+import { NavBarComponent } from './navbar/navbar.component';
 import { CatalogoComponent } from './catalogo/catalogo.component';
 import { NosotrosComponent } from './nosotros/nosotros.component';
 
@@ -14,13 +14,10 @@ import { NosotrosComponent } from './nosotros/nosotros.component';
     InicioComponent,
     NavBarComponent,
     CatalogoComponent,
-    NosotrosComponent
+    NosotrosComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

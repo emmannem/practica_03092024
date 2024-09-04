@@ -1,0 +1,46 @@
+/* Estilo para el logo */
+.logo {
+  height: 50px;
+  transition: transform 0.2s;
+}
+
+.logo:hover {
+  transform: scale(1.05);
+}
+
+/* Estilo de la barra de navegación */
+.navbar {
+  padding: 10px 20px;
+  background-color: #0174c8; /* Color de fondo personalizado */
+}
+
+/* Estilo para los enlaces del navbar */
+.nav-link {
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding: 10px 15px;
+  transition: color 0.2s, background-color 0.2s;
+  color: #ffffff !important; /* Texto en blanco */
+}
+
+/* Cambiar color al pasar el cursor o hacer clic */
+.nav-link:hover,
+.nav-link:focus,
+.nav-link:active {
+  color: #d9d9d9 !important; /* Color ligeramente oscurecido */
+  background-color: rgba(0, 0, 0, 0.1); /* Fondo ligero al hacer hover */
+}
+
+/* Estilo para el botón de carrito */
+.nav-item .fas.fa-shopping-cart {
+  font-size: 1.2rem;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+/* Ajustes para el menú colapsable en dispositivos pequeños */
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); /* Cambiado a blanco */
+}
