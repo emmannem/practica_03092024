@@ -3,7 +3,7 @@
   background-image: url("https://img.freepik.com/fotos-premium/primer-plano-estante-zapatos-zapateria-alta-gama-ia-generativa_697880-6300.jpg?w=826");
   background-size: cover;
   background-position: center;
-  height: 610px;
+  height: 630px;
   filter: brightness(0.8) contrast(1.2);
 }
 
@@ -38,8 +38,4 @@
   width: 100%;
   height: 180px;
   object-fit: cover;
-}
-
-.footer {
-  background-color: #333;
 }
