@@ -1,261 +1,361 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Catálogo de Mocasines y Oxfords</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Catálogo de Mocasines y Oxfords</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css"
+    />
+  </head>
+  <body>
+    <div class="container mt-5">
+      <!-- Título del catálogo -->
 
-</head>
-<body>
-
-  <div class="container mt-5">
-    <!-- Título del catálogo -->
-    
-
-    <!-- Sección de productos -->
-    <section class="mocasines">
+      <!-- Sección de productos -->
+      <section class="mocasines">
         <h1 class="text-left">Catálogo de Mocasines y Oxfords</h1>
-    <div class="row mt-4">
-      <!-- Producto 1 -->
-      <div class="col-md-3">
-        <div class="card">
-          <img src="https://http2.mlstatic.com/D_NQ_NP_883551-MLM53901845720_022023-O.webp" class="card-img-top" alt="Mocasín 1">
-          <div class="card-body">
-            <h5 class="card-title">Mocasín Clásico</h5>
-            <p class="card-text"><strong>Precio:</strong> $1000.00</p>
-            <p class="card-text"><strong>Precio con Descuento:</strong> $850.00</p>
+        <div class="row mt-4">
+          <!-- Producto 1 -->
+          <div class="col-md-3">
+            <div class="card">
+              <img
+                src="https://http2.mlstatic.com/D_NQ_NP_883551-MLM53901845720_022023-O.webp"
+                class="card-img-top"
+                alt="Mocasín 1"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Mocasín Clásico</h5>
+                <p class="card-text"><strong>Precio:</strong> $1000.00</p>
+                <p class="card-text">
+                  <strong>Precio con Descuento:</strong> $850.00
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Producto 2 -->
+          <div class="col-md-3">
+            <div class="card">
+              <img
+                src="https://http2.mlstatic.com/D_NQ_NP_804767-MLM53929271760_022023-O.webp"
+                class="card-img-top"
+                alt="Oxford 1"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Oxford Formal</h5>
+                <p class="card-text"><strong>Precio:</strong> $1200.00</p>
+                <p class="card-text">
+                  <strong>Precio con Descuento:</strong> $1000.00
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Producto 3 -->
+          <div class="col-md-3">
+            <div class="card">
+              <img
+                src="https://http2.mlstatic.com/D_NQ_NP_919134-MLM53901916136_022023-O.webp"
+                class="card-img-top"
+                alt="Mocasín 2"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Mocasín Moderno</h5>
+                <p class="card-text"><strong>Precio:</strong> $900.00</p>
+                <p class="card-text">
+                  <strong>Precio con Descuento:</strong> $750.00
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 options-section">
+            <div class="card">
+              <div class="card-body">
+                <h4>Opciones</h4>
+                <form>
+                  <div class="form-group">
+                    <label for="tipoPago2">Tipo de Pago</label>
+                    <select class="form-control" id="tipoPago2">
+                      <option>Tarjeta de Crédito</option>
+                      <option>PayPal</option>
+                      <option>Efectivo</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label for="material2">Material</label>
+                    <select class="form-control" id="material2">
+                      <option>Cuero</option>
+                      <option>Gamuza</option>
+                      <option>Sintético</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label for="formaPunta2">Forma de la Punta</label>
+                    <select class="form-control" id="formaPunta2">
+                      <option>Redonda</option>
+                      <option>Cuadrada</option>
+                      <option>Punta fina</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label for="talla2">Tallas Disponibles</label>
+                    <select class="form-control" id="talla2">
+                      <option>6</option>
+                      <option>7</option>
+                      <option>8</option>
+                      <option>9</option>
+                      <option>10</option>
+                    </select>
+                  </div>
+                </form>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
+      </section>
 
-      <!-- Producto 2 -->
-      <div class="col-md-3">
-        <div class="card">
-          <img src="https://http2.mlstatic.com/D_NQ_NP_804767-MLM53929271760_022023-O.webp" class="card-img-top" alt="Oxford 1">
-          <div class="card-body">
-            <h5 class="card-title">Oxford Formal</h5>
-            <p class="card-text"><strong>Precio:</strong> $1200.00</p>
-            <p class="card-text"><strong>Precio con Descuento:</strong> $1000.00</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- Producto 3 -->
-      <div class="col-md-3">
-        <div class="card">
-          <img src="https://http2.mlstatic.com/D_NQ_NP_919134-MLM53901916136_022023-O.webp" class="card-img-top" alt="Mocasín 2">
-          <div class="card-body">
-            <h5 class="card-title">Mocasín Moderno</h5>
-            <p class="card-text"><strong>Precio:</strong> $900.00</p>
-            <p class="card-text"><strong>Precio con Descuento:</strong> $750.00</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-3 options-section">
-        <div class="card">
-          <div class="card-body">
-            <h4>Opciones</h4>
-            <form>
-              <div class="form-group">
-                <label for="tipoPago2">Tipo de Pago</label>
-                <select class="form-control" id="tipoPago2">
-                  <option>Tarjeta de Crédito</option>
-                  <option>PayPal</option>
-                  <option>Efectivo</option>
-                </select>
-              </div>
-              <div class="form-group">
-                <label for="material2">Material</label>
-                <select class="form-control" id="material2">
-                  <option>Cuero</option>
-                  <option>Gamuza</option>
-                  <option>Sintético</option>
-                </select>
-              </div>
-              <div class="form-group">
-                <label for="formaPunta2">Forma de la Punta</label>
-                <select class="form-control" id="formaPunta2">
-                  <option>Redonda</option>
-                  <option>Cuadrada</option>
-                  <option>Punta fina</option>
-                </select>
-              </div>
-              <div class="form-group">
-                <label for="talla2">Tallas Disponibles</label>
-                <select class="form-control" id="talla2">
-                  <option>6</option>
-                  <option>7</option>
-                  <option>8</option>
-                  <option>9</option>
-                  <option>10</option>
-                </select>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-    </section>
-
-    <section class="sneakers">
+      <section class="sneakers">
         <h1 class="text-left">Catálogo de Sneakers</h1>
         <div class="row mt-4">
           <!-- Producto 1 -->
           <div class="col-md-3">
             <div class="card">
-              <img src="https://http2.mlstatic.com/D_NQ_NP_786856-MLM69478762860_052023-O.webp" class="card-img-top" alt="Mocasín 1">
+              <img
+                src="https://http2.mlstatic.com/D_NQ_NP_786856-MLM69478762860_052023-O.webp"
+                class="card-img-top"
+                alt="Mocasín 1"
+              />
               <div class="card-body">
                 <h5 class="card-title">Sneaker azul</h5>
                 <p class="card-text"><strong>Precio:</strong> $1000.00</p>
-                <p class="card-text"><strong>Precio con Descuento:</strong> $850.00</p>
+                <p class="card-text">
+                  <strong>Precio con Descuento:</strong> $850.00
+                </p>
               </div>
             </div>
           </div>
-    
+
           <!-- Producto 2 -->
           <div class="col-md-3">
             <div class="card">
-              <img src="https://http2.mlstatic.com/D_NQ_NP_983838-MLM54969694320_042023-O.webp" class="card-img-top" alt="Oxford 1">
+              <img
+                src="https://http2.mlstatic.com/D_NQ_NP_983838-MLM54969694320_042023-O.webp"
+                class="card-img-top"
+                alt="Oxford 1"
+              />
               <div class="card-body">
                 <h5 class="card-title">Zappis negros</h5>
                 <p class="card-text"><strong>Precio:</strong> $1200.00</p>
-                <p class="card-text"><strong>Precio con Descuento:</strong> $1000.00</p>
+                <p class="card-text">
+                  <strong>Precio con Descuento:</strong> $1000.00
+                </p>
               </div>
             </div>
           </div>
-    
+
           <!-- Producto 3 -->
           <div class="col-md-3">
             <div class="card">
-              <img src="https://http2.mlstatic.com/D_NQ_NP_964625-MLM54969962650_042023-O.webp" class="card-img-top" alt="Mocasín 2">
+              <img
+                src="https://http2.mlstatic.com/D_NQ_NP_964625-MLM54969962650_042023-O.webp"
+                class="card-img-top"
+                alt="Mocasín 2"
+              />
               <div class="card-body">
                 <h5 class="card-title">Zappys rojos</h5>
                 <p class="card-text"><strong>Precio:</strong> $900.00</p>
-                <p class="card-text"><strong>Precio con Descuento:</strong> $750.00</p>
+                <p class="card-text">
+                  <strong>Precio con Descuento:</strong> $750.00
+                </p>
               </div>
             </div>
-          </div>         
+          </div>
         </div>
 
         <div class="row mt-4">
-            <!-- Producto 4 -->
-            <div class="col-md-3">
-              <div class="card">
-                <img src="https://http2.mlstatic.com/D_NQ_NP_773418-MLM54969930244_042023-O.webp" class="card-img-top" alt="Mocasín 1">
-                <div class="card-body">
-                  <h5 class="card-title">Zappis azules</h5>
-                  <p class="card-text"><strong>Precio:</strong> $1000.00</p>
-                  <p class="card-text"><strong>Precio con Descuento:</strong> $850.00</p>
-                </div>
+          <!-- Producto 4 -->
+          <div class="col-md-3">
+            <div class="card">
+              <img
+                src="https://http2.mlstatic.com/D_NQ_NP_773418-MLM54969930244_042023-O.webp"
+                class="card-img-top"
+                alt="Mocasín 1"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Zappis azules</h5>
+                <p class="card-text"><strong>Precio:</strong> $1000.00</p>
+                <p class="card-text">
+                  <strong>Precio con Descuento:</strong> $850.00
+                </p>
               </div>
             </div>
-      
-            <!-- Producto 5 -->
-            <div class="col-md-3">
-              <div class="card">
-                <img src="https://http2.mlstatic.com/D_NQ_NP_699424-MLM69018575956_042023-O.webp" class="card-img-top" alt="Oxford 1">
-                <div class="card-body">
-                  <h5 class="card-title">Zappis rosas</h5>
-                  <p class="card-text"><strong>Precio:</strong> $1200.00</p>
-                  <p class="card-text"><strong>Precio con Descuento:</strong> $1000.00</p>
-                </div>
-              </div>
-            </div>
-      
-            <!-- Producto 6 -->
-            <div class="col-md-3">
-              <div class="card">
-                <img src="https://http2.mlstatic.com/D_NQ_NP_738797-MLM69480955886_052023-O.webp" class="card-img-top" alt="Mocasín 2">
-                <div class="card-body">
-                  <h5 class="card-title">Zappis suela alta</h5>
-                  <p class="card-text"><strong>Precio:</strong> $900.00</p>
-                  <p class="card-text"><strong>Precio con Descuento:</strong> $750.00</p>
-                </div>
-              </div>
-            </div>         
           </div>
-        </section>
 
-        <section class="botas">
-            <h1 class="text-left">Catálogo de Botas</h1>
-            <div class="row mt-4">
-              <!-- Producto 1 -->
-              <div class="col-md-3">
-                <div class="card">
-                  <img src="https://http2.mlstatic.com/D_NQ_NP_813468-MLM52856074107_122022-O.webp" class="card-img-top" alt="Mocasín 1">
-                  <div class="card-body">
-                    <h5 class="card-title">Bota</h5>
-                    <p class="card-text"><strong>Precio:</strong> $1000.00</p>
-                    <p class="card-text"><strong>Precio con Descuento:</strong> $850.00</p>
-                  </div>
-                </div>
+          <!-- Producto 5 -->
+          <div class="col-md-3">
+            <div class="card">
+              <img
+                src="https://http2.mlstatic.com/D_NQ_NP_699424-MLM69018575956_042023-O.webp"
+                class="card-img-top"
+                alt="Oxford 1"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Zappis rosas</h5>
+                <p class="card-text"><strong>Precio:</strong> $1200.00</p>
+                <p class="card-text">
+                  <strong>Precio con Descuento:</strong> $1000.00
+                </p>
               </div>
+            </div>
+          </div>
+
+          <!-- Producto 6 -->
+          <div class="col-md-3">
+            <div class="card">
+              <img
+                src="https://http2.mlstatic.com/D_NQ_NP_738797-MLM69480955886_052023-O.webp"
+                class="card-img-top"
+                alt="Mocasín 2"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Zappis suela alta</h5>
+                <p class="card-text"><strong>Precio:</strong> $900.00</p>
+                <p class="card-text">
+                  <strong>Precio con Descuento:</strong> $750.00
+                </p>
               </div>
-            </section>    
-            
-        
-  </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-  <section class="compras">
-    <h1>Tus compras están seguras</h1>
-    <div class="row mt-4">
-      <div class="col-md-3">
-        <img src="https://mshopsoficiales.kubocloud.com/mx/chabeloshops/tarjeta.svg" class="card-img-top" alt="Paga con tarjeta o en efectivo">
-        <p class="first-paragraph">Paga con tarjeta o en efectivo</p>
-        <p class="second-paragraph">Con Mercado Pago, tienes meses sin intereses con tarjeta o efectivo.</p>
-      </div>
-
-      <div class="col-md-3">
-        <img src="https://mshopsoficiales.kubocloud.com/mx/chabeloshops/seguridad.svg" class="card-img-top" alt="Seguridad, de principio a fin">
-        <p class="first-paragraph">Seguridad, de principio a fin</p>
-        <p class="second-paragraph">Elige Mercado Envíos y sigue tu compra hasta que llegue a tus manos.</p>
-      </div>
-
-      <div class="col-md-3">
-        <img src="https://mshopsoficiales.kubocloud.com/mx/chabeloshops/envios.svg" class="card-img-top" alt="Envíos gratis en algunos productos">
-        <p class="first-paragraph">Envíos gratis en algunos productos</p>
-        <p class="second-paragraph">Seguimos tus compras y tus paquetes siempre van protegidos.</p>
-      </div>
+      <section class="botas">
+        <h1 class="text-left">Catálogo de Botas</h1>
+        <div class="row mt-4">
+          <!-- Producto 1 -->
+          <div class="col-md-3">
+            <div class="card">
+              <img
+                src="https://http2.mlstatic.com/D_NQ_NP_813468-MLM52856074107_122022-O.webp"
+                class="card-img-top"
+                alt="Mocasín 1"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Bota</h5>
+                <p class="card-text"><strong>Precio:</strong> $1000.00</p>
+                <p class="card-text">
+                  <strong>Precio con Descuento:</strong> $850.00
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
-  </section>
 
-  <section class="footer">
-    <footer class="w-100">
+    <section class="compras">
+      <h1>Tus compras están seguras</h1>
+      <div class="row mt-4">
+        <div class="col-md-3">
+          <img
+            src="https://mshopsoficiales.kubocloud.com/mx/chabeloshops/tarjeta.svg"
+            class="card-img-top"
+            alt="Paga con tarjeta o en efectivo"
+          />
+          <p class="first-paragraph">Paga con tarjeta o en efectivo</p>
+          <p class="second-paragraph">
+            Con Mercado Pago, tienes meses sin intereses con tarjeta o efectivo.
+          </p>
+        </div>
+
+        <div class="col-md-3">
+          <img
+            src="https://mshopsoficiales.kubocloud.com/mx/chabeloshops/seguridad.svg"
+            class="card-img-top"
+            alt="Seguridad, de principio a fin"
+          />
+          <p class="first-paragraph">Seguridad, de principio a fin</p>
+          <p class="second-paragraph">
+            Elige Mercado Envíos y sigue tu compra hasta que llegue a tus manos.
+          </p>
+        </div>
+
+        <div class="col-md-3">
+          <img
+            src="https://mshopsoficiales.kubocloud.com/mx/chabeloshops/envios.svg"
+            class="card-img-top"
+            alt="Envíos gratis en algunos productos"
+          />
+          <p class="first-paragraph">Envíos gratis en algunos productos</p>
+          <p class="second-paragraph">
+            Seguimos tus compras y tus paquetes siempre van protegidos.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer">
+      <footer class="w-100">
         <div class="custom-container">
           <div class="row">
             <!-- Redes Sociales -->
             <div class="col-md-4 text-center">
               <h5>Síguenos en redes sociales</h5>
-              <a href="https://www.facebook.com/ChabeloElZapatoDeLosNinos" class="text-white mx-2"><i class="bi bi-twitter"></i> Twitter</a>
-              <a href="https://www.facebook.com/ChabeloElZapatoDeLosNinos" class="text-white mx-2"><i class="bi bi-facebook"></i> Facebook</a>
-              <a href="https://www.instagram.com/chabeloshop/?hl=en" class="text-white mx-2"><i class="bi bi-instagram"></i> Instagram</a>
+              <a
+                href="https://www.facebook.com/ChabeloElZapatoDeLosNinos"
+                class="text-white mx-2"
+                ><i class="bi bi-twitter"></i> Twitter</a
+              >
+              <a
+                href="https://www.facebook.com/ChabeloElZapatoDeLosNinos"
+                class="text-white mx-2"
+                ><i class="bi bi-facebook"></i> Facebook</a
+              >
+              <a
+                href="https://www.instagram.com/chabeloshop/?hl=en"
+                class="text-white mx-2"
+                ><i class="bi bi-instagram"></i> Instagram</a
+              >
             </div>
-    
+
             <!-- Pagos Seguros -->
             <div class="col-md-4 text-center">
               <h5>Pagos Seguros</h5>
-              <p><img src="https://mshopsoficiales.kubocloud.com/mx/chabeloshops/bancos.svg" alt="Pagos BBVA" width="200"></p>
+              <p>
+                <img
+                  src="https://mshopsoficiales.kubocloud.com/mx/chabeloshops/bancos.svg"
+                  alt="Pagos BBVA"
+                  width="200"
+                />
+              </p>
             </div>
-    
+
             <!-- Derechos Reservados -->
             <div class="col-md-4 text-center">
               <h5>Derechos Reservados</h5>
-              <p>&copy; 2024 Chabelo Shop. Todos los derechos reservados.</p>
+              <p>&copy; 2024 Zapatos Famsa. Todos los derechos reservados.</p>
             </div>
           </div>
         </div>
       </footer>
-      </section>
+    </section>
 
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-</body>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
