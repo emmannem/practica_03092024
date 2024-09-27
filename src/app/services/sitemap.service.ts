@@ -8,8 +8,8 @@ export class SitemapService {
   constructor() {}
 
   generateSitemap(): string {
-    const domain = 'http://localhost:4200';
-
+    // const domain = 'http://localhost:4200';
+    const domain = 'https://emmannem.github.io/practica_03092024';
     // Define las URLs y las imágenes asociadas
     const urls = [
       {
