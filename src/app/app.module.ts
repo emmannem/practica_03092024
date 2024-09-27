@@ -7,6 +7,7 @@ import { InicioComponent } from './inicio/inicio.component';
 import { NavBarComponent } from './navbar/navbar.component';
 import { CatalogoComponent } from './catalogo/catalogo.component';
 import { NosotrosComponent } from './nosotros/nosotros.component';
+import { SitemapComponent } from './sitemap/sitemap.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { NosotrosComponent } from './nosotros/nosotros.component';
     NavBarComponent,
     CatalogoComponent,
     NosotrosComponent,
+    SitemapComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
